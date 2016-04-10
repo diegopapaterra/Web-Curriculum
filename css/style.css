@@ -1,6 +1,13 @@
 body{margin:0; padding:10px 0; position: relative; font-family: 'Open Sans', sans-serif; min-width: 250px; background: url(../img/background.jpg) repeat left top;}
-.main-paper{position: relative; max-width: 950px; min-height: 1500px; background: #FFF; display: block; margin: 0 auto;}
-.panel-left{background-color: #637E86; min-height: 100%;}
-.panel-right{min-height: 100%;}
 
-.panel-left img{display: block; margin: 30% auto; max-width: 80%;}
+.main-container div{ display: block; margin: 0 auto; text-align: center;}
+.main-container div h1{font-size: 70px; line-height: 1.4; color: #FFFFFF; padding: 10% 0 5% 0; font-family: 'Open Sans', sans-serif; font-weight: 100;}
+.main-container div a.button{display: inline-block; text-decoration:none; cursor:pointer; background: transparent; border: solid 2px #CCC; color: #CCC; padding: 10px; margin:0; font-weight: bold; width: 165px; position: relative; z-index: 1; -webkit-backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; overflow: hidden; -webkit-transition: border-color 0.3s, color 0.3s; transition: border-color 0.3s, color 0.3s; -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);}
+.main-container div a.button:hover{text-decoration:none; color: #B71C1C; border-color: #B71C1C;}
+.main-container div a.button:first-child{margin: 0 40px 0 0;}
+.main-container div a.button:last-child{margin: 0 0 0 40px;}
+
+@media screen and (max-width: 480px) {
+    #section1 h1{font-size: 40px; line-height: 1.4; color: #FFFFFF;}
+    .main-container div a.button{float: none; margin: 10px 0 !important;}
+}
