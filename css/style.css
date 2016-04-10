@@ -1,1 +1,6 @@
-body{margin:0; padding:0; position: relative; font-family: 'Open Sans', sans-serif; min-width: 250px;}
+body{margin:0; padding:10px 0; position: relative; font-family: 'Open Sans', sans-serif; min-width: 250px; background: url(../img/background.jpg) repeat left top;}
+.main-paper{position: relative; max-width: 950px; min-height: 1500px; background: #FFF; display: block; margin: 0 auto;}
+.panel-left{background-color: #637E86; min-height: 100%;}
+.panel-right{min-height: 100%;}
+
+.panel-left img{display: block; margin: 30% auto; max-width: 80%;}
